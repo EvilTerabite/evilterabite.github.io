@@ -1,8 +1,18 @@
 <!DOCTYPE html>
+<!--
+    If you are reading this right now, you are a certified nerd! (just like me...)
+-->
 <html>
     <head>
         <title>Jeremy D'silva</title>
         <link rel="stylesheet" href="style.css">
+        <script>
+            function onClick(s) {
+                if(s == 1) {
+                    alert("The projects tab is not available yet!");
+                }
+            }
+        </script>
     </head>
 
     <body>
@@ -12,8 +22,8 @@
                 <nav>
                     <ul>
                         <li><a href="resources/homework/homework.html">Assignments</a></li>
-                        <li><a href="">Projects</a></li>
-                        <li><a href="">JeremyFlix</a></li>
+                        <li><a onclick="onClick(1)">Projects</a></li>
+                        <li><a href="resources/jeremyflix/jeremyflix.html">JeremyFlix</a></li>
                     </ul>
                 </nav>
             </div>
@@ -25,7 +35,7 @@
             </div>
             <div class="footer">
                 <footer>
-                    <address>&copy; Jeremy D'silva 2021</address>
+                    <a href="resources/secret.html"><i>&copy; Jeremy D'silva 2021</i></a>
                     <address>Site version v0.02a</address>
                 </footer>
             </div>
