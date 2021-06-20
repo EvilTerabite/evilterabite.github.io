@@ -63,6 +63,10 @@ nav ul li a:hover {
     color: rgb(0, 0, 0);
 }
 
+.content .github {
+    color: lightblue;
+}
+
 .content button {
     border: none;
     color: white;

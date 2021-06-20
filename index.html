@@ -6,14 +6,9 @@
     <head>
         <title>Bits</title>
         <link rel="stylesheet" href="style.css">
-        <link rel="shortcut icon" href="resources/images/logo.png">
-        <script>
-            function onClick(s) {
-                if(s == 1) {
-                    alert("The projects tab is not available yet!");
-                }
-            }
-        </script>
+        <a href="">
+            <link rel="shortcut icon" href="resources/images/logo.png">
+        </a>
     </head>
 
     <body>
@@ -29,9 +24,11 @@
                 </nav>
             </div>
             <div class="content">
+                <p class="devButton">(..)</p>
                 <center>
                     <h1>A place to store my stuff</h1>
                     <p><b>From assignments to pet projects, all my public projects will be displayed here.</b></p>
+                    <p class="github">All source code can be found <a href="www.github.com/evilterabite">here</a></p>
                 </center>
             </div>
             <div class="footer">
@@ -43,3 +40,11 @@
         </div>
     </body>
 </html>
+
+<script>
+    function onClick(s) {
+        if(s == 1) {
+            alert("The projects tab is not available yet!");
+        }
+    }
+</script>
