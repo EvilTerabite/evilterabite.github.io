@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Order Form
+        </title>
+        <style>
+            body {
+                margin: 30px;
+            }
+        </style>
+    </head>
+
+    <body bgcolor=#FEEDB7>
+        <header>
+            <h2>Order Form</h2>
+            <h3>Become a member of our organization</h3>
+        </header>
+
+        <main>
+            <form action="register_account.html" method="GET" id="registration_form">
+                <fieldset>
+                    <legend>Registration Information</legend>
+                    E-Mail:<br>
+                    <input type="email" name="email"><br>
+                    Password:<br>
+                    <input type="password" n ame="password"><br>
+                    Verify Password:<br>
+                    <input type="password" name="verify"><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Member Information</legend>
+                    First Name:<br>
+                    <input type="text" name="first_name"><br>
+                    Last Name:<br>
+                    <input type="text" name="last_name"><br>
+                    Phone Number:<br>
+                    <input type="tel" name="phone"><br>
+
+                    <input type="checkbox" name="locker">
+                    Needs a Locker<br>
+
+                    <input type="checkbox" name="parking">
+                    Needs Parking<br>
+
+                    <input type="checkbox" name="pass">
+                    <label for="topping3">Needs Handicap Pass</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Membership Information</legend>
+                    Membership Type: <br>
+                    <select name="membership_type" id="membership_type">
+                        <option value="j">Junior</option>
+                        <option value="r">Regular</option>
+                        <option value="c">Charter</option>
+                    </select><br>
+                </fieldset>
+
+                <fieldset id="buttons">
+                    Submit your Membership<br>
+                    <input type="submit" id="submit" value="Submit">
+                    <input type="reset" id="reset" value="Reset Form">
+                
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+            <p>&copy; Jeremy D'silva Order Form 2021</p>
+        </footer>
+    </body>
+</html>
